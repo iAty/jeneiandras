@@ -1,0 +1,23 @@
+{
+    "name": "juzaweb/ads-manager",
+    "description": "Add html ads to your website",
+    "extra": {
+        "juzaweb": {
+            "providers": [
+                "Juzaweb\\AdsManager\\Providers\\AdsManagerServiceProvider"
+            ],
+            "name": "Ads Management",
+            "domain": "juad",
+            "cms_min": "3.0",
+            "version": "1.0.2"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Juzaweb\\AdsManager\\": "src/"
+        }
+    },
+    "require": {
+        "sokil/php-vast": "^2.1"
+    }
+}
